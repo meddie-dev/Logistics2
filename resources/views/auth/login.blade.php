@@ -1,15 +1,16 @@
-<x-layout>
+<x-client-layout>
 
-    <div class="bg-primary">
+    <div>
         <div id="layoutAuthentication">
             <div id="layoutAuthentication_content">
                 <main>
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="col-lg-5">
-                                <div class="card shadow-lg border-0 rounded-lg mt-5">
+                            <div class="col-lg-6">
+                                <div class="card shadow-lg border-0 rounded-lg mt-5 mb-5">
                                     <div class="card-header">
-                                        <h3 class="text-center font-weight-light my-4">Login</h3>
+                                        <h3 class="text-center font-weight-light mt-4">Access account</h3>
+                                        <p class="text-center text-body-tertiary">Join us again for seamless tracking!</p>
                                     </div>
                                     <div class="card-body">
                                         <form>
@@ -40,20 +41,6 @@
                     </div>
                 </main>
             </div>
-            <div id="layoutAuthentication_footer">
-                <footer class="py-4 bg-light mt-auto">
-                    <div class="container-fluid px-4">
-                        <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2023</div>
-                            <div>
-                                <a href="#">Privacy Policy</a>
-                                &middot;
-                                <a href="#">Terms &amp; Conditions</a>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-            </div>
         </div>
     </div>
-</x-layout>
+</x-client-layout>
